@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Expense App</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="src/style.css"/>
+        <script src="src/main.js"></script>
+    </head>
+    <body>
+       <header>
+        <h1>Expense Tracker</h1>
+        <form>
+            <div class="desClass">
+                <label for="description">Name: </label>
+                <input type="text" name="description" id="description" placeholder="Add A New Item"> </input>
+            </div>
+            <div class="form-group">
+                    <br>
+                <div>
+                    <label for="amount">Amount Spent: </label>
+                    <input type="number" name="amount" id="amount"></input>
+                </div> 
+                    <br>
+                    <div>
+                        <label for="amountBudgeted">Amount Budgeted: </label>
+                        <input type="number" name="amountBudgeted" id="amountBudgeted"></input>
+                    </div> 
+                        <br>
+                <div>
+                    <label for="date">Date: </label>
+                    <input type="date"name="date" id="date"></input> 
+                </div>
+            </div>
+        </form>
+        <div class="buttons">
+            <input type="submit" value="Add Item" id="addItem" />
+            <input type="submit" value="Clear Items" id="clearItem" />
+        </div>
+       </header>
+       <table class="table">
+            <thead>
+                    <tr>
+                        <th>Name</th>  
+                        <th>Amount Spent</th>
+                        <th>Amount Budgeted</th> 
+                        <th>Date</th> 
+                        <th></th> 
+                    </tr> 
+            </thead>
+            <tbody class="tbody">
+                
+            </tbody>
+       </table>
+       <div class="totals">
+       <div class="expenseDiv"></div>
+       <div class="spentDiv"></div>
+       </div>
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </body>
+</html>

@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background-color: rgb(226, 212, 212);
+    border: 0px;
+    height: 23px;
+   
+}
+.desClass{
+    display: flex;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#description{
+    margin-right: 11px;
+    margin-bottom: 15px;
+    width: 420px;
+    
+}
+#date{
+    margin-right: 11px;
+    margin-bottom: 15px;
+}
+#amount{
+    margin-right: 11px;
+    margin-bottom: 15px;
+}
+#amountBudgeted{
+    margin-right: 11px;
+    margin-bottom: 15px;
+}
+/*.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}*/
+
+#addItem{
+    background-color: rgb(158, 163, 167);
+    color: black;
+    border-radius: 10px;
+    border: 0px;
+    width: 64px;
+    height: 35px;
+}
+#addItem:hover{
+    background-color:rgb(140, 136, 222);
+}
+.deleteItem{
+    background-color: rgb(118, 123, 125);
+    width: 64px;
+    height: 35px;
+    color: black;
+    border: 0px;
+    margin-left: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13;
+    /*box-shadow: inset 1px 1px 0px black ;*/
+}
+.deleteItem:hover{
+    background-color: rgb(155, 222, 213);
+}
+#editId{
+    background-color: rgb(118, 123, 125);
+    width: 64px;
+    height: 35px;
+    color: black;
+    border: 0px;
+    margin-left: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#editId:hover{
+    background-color: rgb(114, 225, 174);
+}
+
+span{
+    color:red;
+}
+#clearItem{
+    background-color: rgb(169, 165, 173);
+    width: 64px;
+    height: 35px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    font-size: 12px;
+    margin-left: 7px;
+}
+#clearItem:hover{
+    background-color: rgb(226, 120, 222);
+}
+.buttons{
+    display: flex;
+
+}
+table{
+  width: 100%;
+  margin-top: 40px;
+  visibility: hidden;
+}
+thead{
+    background-color: rgb(238, 229, 229);
+    height: 30px;
+}
+tbody{
+    background-color: rgb(154, 155, 157);
+    height: 30px;
+}
+p{
+    background-color:rgb(154, 155, 157); 
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+.expenseDiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spentDiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totals{
+    display: flex;
+    justify-content: space-between;
+}
